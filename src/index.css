@@ -1,0 +1,24 @@
+*{
+  
+  padding: 0;
+  margin : 0;
+box-sizing: border-box;
+}
+
+body{
+  width: 100% ;
+  overflow-x: hidden;
+}
+
+@keyframes dino{
+  0%,20%,50%,80%,100%{
+      transform: translateY(0);
+  }
+  50%{
+     transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(1px);
+    
+  }
+}
